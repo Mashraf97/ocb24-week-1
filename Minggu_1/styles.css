@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  section > .left {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+  }
+  
+  section > .right {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+  }
